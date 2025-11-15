@@ -24,31 +24,19 @@ If you want to run a different script file (for example, PL_Data_Scraping.py), f
 
 Open your terminal and navigate to your project folder:
 
-bash
-Copy
-Edit
 cd path/to/your/project/folder
 (Optional but recommended) Activate your virtual environment:
 
 On macOS/Linux:
 
-bash
-Copy
-Edit
 source venv/bin/activate
 
 On Windows:
 
-bash
-Copy
-Edit
 venv\Scripts\activate
 
 Run your Python script by specifying the file name:
 
-bash
-Copy
-Edit
 python PL_Data_Scraping.py
 
 After the script runs, check the folder for the output file (e.g., stats.csv).
